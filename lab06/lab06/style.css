@@ -9,15 +9,15 @@ h1 {
 
 .where-i-begin {
     color: rgba(234, 0, 255, 0.521);
-    font-size: 24px;
+    font-size: 30px;
 }
 
 nav a {
     color: bisque;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 50px 50px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 2.0s ease;
 }
 
 nav a:hover {
