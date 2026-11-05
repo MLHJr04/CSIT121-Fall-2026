@@ -43,3 +43,20 @@ header {
     padding: 30px 15px;
     border-radius: 6px;
     margin-bottom: 25px;
+
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+(min-width: 800px) {
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+    }
+
+}.layout-focus {
+    grid-column: span 2;
